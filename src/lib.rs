@@ -216,7 +216,7 @@
 //!     assert_eq!(implemented_default, (Flags::FLAG_A | Flags::FLAG_C));
 //! }
 //! ```
-
+#![feature(associated_consts)]
 #![no_std]
 
 #![doc(html_root_url = "https://docs.rs/bitflags/0.9.1")]
